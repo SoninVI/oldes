@@ -1,0 +1,30 @@
+// Variables
+@base_font: "intro", sans-serif;
+@second_font: "miriadproregular", sans-serif;
+
+
+// Mixins
+.color1{
+  color: #f8b505;
+}
+.color2{
+  color: #34D800;
+}
+
+.flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.translate(@x, @y){
+	-moz-transform: translate(@x, @y);
+	-webkit-transform: translate(@x, @y);
+	transform: translate(@x, @y);
+}
+.transition_all(@style: all, @time: 0.3s, @animate:ease-in-out){
+	-moz-transition: @style @time @animate;
+	-webkit-transition: @style @time @animate;
+	transition: @style @time @animate;
+}
