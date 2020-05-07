@@ -127,3 +127,42 @@ nav ul a{
   }
 
 }
+.about-oldes{
+  text-align: center;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:50px;
+  &:after{
+	content: "";
+	width: 200px;
+	height: 2px;
+	background: #f8b505;
+	display: block;
+  }
+}
+.about-item{
+  .flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  &-circle{
+	.flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background: #9fa8da;
+	margin-bottom: 20px;
+	&>i{
+	  font-size: 75px;
+	  height: 75px;
+	  width: 75px;
+	}
+  }
+}

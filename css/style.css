@@ -131,4 +131,51 @@ nav ul a {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
+.about-oldes {
+  text-align: center;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.title:after {
+  content: "";
+  width: 200px;
+  height: 2px;
+  background: #f8b505;
+  display: block;
+}
+.about-item {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.about-item-circle {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: #9fa8da;
+  margin-bottom: 20px;
+}
+.about-item-circle > i {
+  font-size: 75px;
+  height: 75px;
+  width: 75px;
+}
 /*# sourceMappingURL=style.css.map */
