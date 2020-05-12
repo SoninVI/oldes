@@ -193,7 +193,6 @@ nav ul a {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -207,7 +206,8 @@ nav ul a {
   background-color: rgba(0, 0, 0, 0.7);
 }
 .about-oldes-bg-text {
-  padding: 15px;
+  margin: 40px 0;
+  padding: 20px;
   line-height: 36px;
   color: #8db9ca;
   font-size: 18px;
@@ -220,5 +220,27 @@ nav ul a {
 }
 .about-oldes-bg-text > p > span {
   color: #f8b505;
+}
+.swip-wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(50%);
+}
+.swiper-container {
+  width: 80%;
+}
+.slider-object {
+  position: relative;
+}
+.swiper-pagination {
+  position: relative;
+  margin: 20px;
+}
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  color: #9fa8da;
 }
 /*# sourceMappingURL=style.css.map */
